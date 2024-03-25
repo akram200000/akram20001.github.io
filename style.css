@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+ 
+ color:  rgba(255, 255, 255, 1);
+ margin: 0;
+ padding: 0;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.ro{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body
+{
+  background-color: rgba(10, 10, 10, 1);
+}
+header
+{
+display: flex;
+padding: 25px;
+justify-content: space-between;
+background-color: rgba(5, 5, 5, 1);
+
+}
+
+
+
+ul{
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: 32px;
+  right: 100px;
+ 
+  
+}
+ul li a{
+  
+  text-decoration-line: none;
+  margin: 35px;
+  color: rgba(255, 255, 255, 1);
+  padding:  15px 20px;
+  transition: 0.3s;
+  transition-timing-function: ease;
+ 
+}
+a:hover{
+  font-size: larger;
+  padding:  15px 25px;
+   border-bottom: 0.5px solid rgba(255, 255, 255, 1);
+  
+  
+}
+
+h1{
+  color: rgba(255, 255, 255, 1);}
+
+div ul li:last-child a{
+      background-color: rgba(255, 255, 255, 1);
+      color:rgb(40, 40, 40)  ;
+      border-radius:  20px;
+      Padding: 10px 20px;
+  }
+
+section{
+  margin: 300px;
+  text-align: center;
+}
+body{
+  background-image: url(pexels-jay-pizzle-3802510.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+  p{
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 32px;
+      text-align: center;
+      color: rgba(50, 50, 50, 1);
+  }
+.ro1{
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:rgba(5, 5, 5, 1);
+  margin-bottom: 50px;
+  font-size: 50px;
+}
